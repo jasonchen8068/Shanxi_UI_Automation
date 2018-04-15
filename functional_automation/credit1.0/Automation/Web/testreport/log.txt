@@ -1,0 +1,160 @@
+2018-03-28 14:37:36,765  - INFO - <selenium.webdriver.firefox.webdriver.WebDriver (session="cefde862-1141-4c4f-a43d-e3961bf0624c")>
+2018-03-28 14:42:28,229  - INFO - http://10.7.106.235:8000/account
+2018-03-28 14:51:12,937  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:11:34,677  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:17:11,522  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:23:20,171  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:26:53,891  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:27:40,642  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:29:41,816  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:35:05,799  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:51:33,713  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:57:37,476  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:02:17,677  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:03:58,052  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:05:42,569  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:13:12,825  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:17:37,062  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:01:53,065  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:04:20,743  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:06:56,292  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:11:25,367  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:14:59,118  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:28:19,342  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:34:48,736  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:42:37,802  - INFO - http://10.7.106.235:8000/account
+2018-03-29 13:27:54,336  - ERROR - login-18252023049-123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-02 15:01:25,038  - INFO - 没有未结束的借款
+2018-04-02 15:02:01,500  - INFO - 没有未结束的借款
+2018-04-02 15:34:00,101  - INFO - 没有未结束的借款
+2018-04-02 18:12:18,812  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-02 18:12:47,329  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-04 14:07:29,960  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-04 19:13:59,677  - INFO - test001_login pass
+2018-04-04 19:14:13,273  - INFO - username is null
+2018-04-04 19:14:13,309  - INFO - test002_login pass
+2018-04-04 19:14:25,963  - INFO - password is null
+2018-04-04 19:14:26,013  - INFO - test003_login pass
+2018-04-04 19:15:06,910  - INFO - 没有未结束的借款
+2018-04-08 09:57:49,167  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-08 10:47:01,460  - INFO - test001_login pass
+2018-04-08 10:47:15,556  - INFO - username is null
+2018-04-08 10:47:15,621  - INFO - test002_login pass
+2018-04-08 10:47:28,243  - INFO - password is null
+2018-04-08 10:47:28,292  - INFO - test003_login pass
+2018-04-08 10:47:41,305  - ERROR - login failed leads open account failed
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\OpenAccount.py", line 21, in open_account
+    Login(self._driver).login(username, password)
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\method\Element_operation.py", line 118, in get_current_url
+    return self._driver.current_url
+  File "E:\pythonworkspace\credit1.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 660, in current_url
+    return self.execute(Command.GET_CURRENT_URL)['value']
+  File "E:\pythonworkspace\credit1.0\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "E:\pythonworkspace\credit1.0\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: Failed to decode response from marionette
+
+2018-04-08 14:52:02,147  - INFO - test001_login pass
+2018-04-08 14:52:15,946  - INFO - username is null
+2018-04-08 14:52:15,994  - INFO - test002_login pass
+2018-04-08 14:52:28,624  - INFO - password is null
+2018-04-08 14:52:28,688  - INFO - test003_login pass
+2018-04-08 16:40:07,065  - INFO - test001_login pass
+2018-04-08 16:47:31,937  - INFO - test001_login pass
+2018-04-08 16:47:45,480  - INFO - username is null
+2018-04-08 16:47:45,499  - INFO - test002_login pass
+2018-04-08 16:47:58,450  - INFO - password is null
+2018-04-08 16:47:58,502  - INFO - test003_login pass
+2018-04-08 17:34:09,457  - INFO - test001_login pass
+2018-04-08 17:34:23,154  - INFO - username is null
+2018-04-08 17:34:23,186  - INFO - test002_login pass
+2018-04-08 17:34:35,578  - INFO - password is null
+2018-04-08 17:34:35,612  - INFO - test003_login pass
+2018-04-08 17:35:18,710  - INFO - 没有未结束的借款
+2018-04-08 17:49:16,015  - INFO - test001_login pass
+2018-04-08 17:49:28,812  - INFO - username is null
+2018-04-08 17:49:28,836  - INFO - test002_login pass
+2018-04-08 17:49:41,105  - INFO - password is null
+2018-04-08 17:49:41,161  - INFO - test003_login pass
+2018-04-08 17:50:23,023  - INFO - 没有未结束的借款
+2018-04-08 17:55:41,171  - INFO - test001_login pass
+2018-04-08 17:55:53,815  - INFO - username is null
+2018-04-08 17:55:53,861  - INFO - test002_login pass
+2018-04-08 17:56:06,447  - INFO - password is null
+2018-04-08 17:56:06,503  - INFO - test003_login pass
+2018-04-08 17:56:50,299  - INFO - 没有未结束的借款
+2018-04-08 18:01:48,763  - INFO - test001_login pass
+2018-04-08 18:02:01,721  - INFO - username is null
+2018-04-08 18:02:01,773  - INFO - test002_login pass
+2018-04-08 18:02:15,625  - INFO - password is null
+2018-04-08 18:02:15,686  - INFO - test003_login pass
+2018-04-08 18:02:57,809  - INFO - 没有未结束的借款
+2018-04-08 18:12:01,989  - INFO - 没有未结束的借款
+2018-04-08 18:13:17,792  - INFO - 没有未结束的借款
+2018-04-08 18:18:12,709  - INFO - 没有未结束的借款
+2018-04-08 18:19:40,359  - INFO - 没有未结束的借款
+2018-04-08 18:20:14,759  - INFO - 没有未结束的借款
+2018-04-08 18:21:22,019  - INFO - 没有未结束的借款
+2018-04-08 18:24:33,012  - INFO - 没有未结束的借款
+2018-04-08 18:25:28,275  - INFO - 没有未结束的借款
+2018-04-08 18:48:57,022  - INFO - test001_login pass
+2018-04-08 18:49:09,793  - INFO - username is null
+2018-04-08 18:49:09,842  - INFO - test002_login pass
+2018-04-08 18:49:23,141  - INFO - password is null
+2018-04-08 18:49:23,187  - INFO - test003_login pass
+2018-04-08 18:50:02,765  - INFO - 没有未结束的借款
+2018-04-08 18:51:58,016  - INFO - test001_login pass
+2018-04-08 18:52:11,221  - INFO - username is null
+2018-04-08 18:52:11,250  - INFO - test002_login pass
+2018-04-08 18:52:25,190  - INFO - password is null
+2018-04-08 18:52:25,236  - INFO - test003_login pass
+2018-04-08 18:53:05,207  - INFO - 没有未结束的借款
+2018-04-08 19:03:39,990  - INFO - 没有未结束的借款
+2018-04-08 19:15:49,673  - INFO - test001_login pass
+2018-04-08 19:16:01,993  - INFO - username is null
+2018-04-08 19:16:02,051  - INFO - test002_login pass
+2018-04-08 19:16:15,910  - INFO - password is null
+2018-04-08 19:16:15,960  - INFO - test003_login pass
+2018-04-09 11:47:59,592  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-09 11:48:11,486  - INFO - username is null
+2018-04-09 11:48:11,536  - INFO - test002_login pass
+2018-04-09 11:48:24,474  - INFO - password is null
+2018-04-09 11:48:24,506  - INFO - test003_login pass
+2018-04-09 11:48:43,365  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-09 12:57:53,993  - INFO - test001_login pass
+2018-04-09 12:58:06,469  - INFO - username is null
+2018-04-09 12:58:06,528  - INFO - test002_login pass
+2018-04-09 12:58:19,581  - INFO - password is null
+2018-04-09 12:58:19,628  - INFO - test003_login pass

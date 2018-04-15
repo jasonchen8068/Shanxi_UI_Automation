@@ -1,0 +1,43 @@
+2018-03-28 14:37:36,765  - INFO - <selenium.webdriver.firefox.webdriver.WebDriver (session="cefde862-1141-4c4f-a43d-e3961bf0624c")>
+2018-03-28 14:42:28,229  - INFO - http://10.7.106.235:8000/account
+2018-03-28 14:51:12,937  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:11:34,677  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:17:11,522  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:23:20,171  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:26:53,891  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:27:40,642  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:29:41,816  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:35:05,799  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:51:33,713  - INFO - http://10.7.106.235:8000/account
+2018-03-28 15:57:37,476  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:02:17,677  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:03:58,052  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:05:42,569  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:13:12,825  - INFO - http://10.7.106.235:8000/account
+2018-03-28 16:17:37,062  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:01:53,065  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:04:20,743  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:06:56,292  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:11:25,367  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:14:59,118  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:28:19,342  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:34:48,736  - INFO - http://10.7.106.235:8000/account
+2018-03-28 17:42:37,802  - INFO - http://10.7.106.235:8000/account
+2018-03-29 13:27:54,336  - ERROR - login-18252023049-123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-02 15:01:25,038  - INFO - 没有未结束的借款
+2018-04-02 15:02:01,500  - INFO - 没有未结束的借款
+2018-04-02 15:34:00,101  - INFO - 没有未结束的借款
+2018-04-02 18:12:18,812  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError
+2018-04-02 18:12:47,329  - ERROR - login-18252023049-cjs123456
+Traceback (most recent call last):
+  File "E:\pythonworkspace\functional_automation\credit1.0\Automation\Web\testcase\business_class\Login.py", line 47, in login
+    assert elem.get_current_url() == 'http://10.7.106.235:8000/account'
+AssertionError

@@ -1,0 +1,77 @@
+1523186216243	geckodriver	INFO	geckodriver 0.20.0
+1523186216249	geckodriver	INFO	Listening on 127.0.0.1:21811
+1523186219289	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.SibbFqF9E2tL"
+1523186219484	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1523186220104	Marionette	INFO	Enabled via --marionette
+[Child 10532] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10532] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523186221518	Marionette	INFO	Listening on port 21819
+1523186222424	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523186222467	Marionette	DEBUG	Register listener.js for window 6442450945
+1523186222494	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523186222530	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523186222530	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523186223459	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/login"
+1523186223566	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/login"
+1523186223907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186226996	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/account"
+1523186227159	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/account"
+1523186227160	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/account"
+1523186227209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/account/loanList"
+1523186227287	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/account/loanList"
+1523186229450	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/account/loanList"
+1523186230204	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/account/loanList"
+1523186230205	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/account/loanList"
+1523186230259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan"
+1523186230486	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan"
+1523186232759	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186236115	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186236439	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186237721	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186238071	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186238411	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186238853	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186240151	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186243441	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186245736	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186253651	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186261572	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186269428	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186271473	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186272040	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186272040	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186272097	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186272170	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186273443	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186275703	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186283503	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186285558	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186286124	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186286125	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186286184	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186286252	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186287529	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186289768	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186297637	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186299683	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186300252	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186300252	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186300292	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186300366	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan/detail/35198950"
+1523186301647	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186301865	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186303121	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523186304178	Marionette	INFO	New connections will no longer be accepted
+[Child 8568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7864] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10252] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523186305037	geckodriver::marionette	ERROR	Failed to stop browser process
+ommon/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523184315251	geckodriver::marionette	ERROR	Failed to stop browser process

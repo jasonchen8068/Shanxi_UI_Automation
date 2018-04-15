@@ -1,0 +1,23 @@
+# -*- coding:utf-8 -*-
+from Driver import Driver
+import unittest
+from OpenAccount import OpenAccount
+
+
+class TestOpenAccount(unittest.TestCase):
+
+    def setUp(self):
+        self.D = Driver()
+        self.driver = self.D.browser_open("http://10.7.106.235:8000/login")
+        self.oa = OpenAccount(self.driver)
+
+    def test004_openaccount(self):
+        self.oa.open_account('18252023049', 'cjs123456', u'陈进松', '320621199301178313', '6214852116479075',
+                             '18051969073')
+
+    def tearDown(self):
+        self.D.browser_close()
+
+
+if __name__ == "__main__":
+    unittest.main()

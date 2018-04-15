@@ -1,0 +1,98 @@
+1522664035381	geckodriver	INFO	geckodriver 0.20.0
+1522664035444	geckodriver	INFO	Listening on 127.0.0.1:16236
+1522664038438	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Q4qVqsw1a2cv"
+1522664038711	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1522664039256	Marionette	INFO	Enabled via --marionette
+[Parent 10344] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7684] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7684] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1522664040587	Marionette	INFO	Listening on port 16244
+1522664041577	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522664041675	Marionette	DEBUG	Register listener.js for window 6442450945
+1522664041717	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522664042421	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522664042422	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522664043720	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/login"
+1522664044451	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/login"
+1522664044793	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522664047880	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/account"
+1522664049569	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/account"
+1522664049570	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/account"
+1522664049643	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/account/loanList"
+1522664052713	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/account/loanList"
+1522664054007	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522664056281	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522664057358	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/account/loanList"
+1522664060805	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/account/loanList"
+1522664060807	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/account/loanList"
+1522664060864	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan"
+1522664061782	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan"
+1522664063088	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522664066130	Marionette	INFO	New connections will no longer be accepted
+[Child 8780] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8780] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10344] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13568] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1522664066973	geckodriver::marionette	ERROR	Failed to stop browser process
+8260	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654480299	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654480843	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654480844	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654480895	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654480968	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654482260	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654484526	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654492418	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654494478	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654495155	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654495155	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654495211	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654495281	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654496564	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654498820	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654506730	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654508795	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654510122	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654510123	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654510179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654510251	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654511534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654511791	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522654513041	Marionette	DEBUG	Received DOM event "beforeunload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654513072	Marionette	DEBUG	Received DOM event "pagehide" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654513072	Marionette	DEBUG	Received DOM event "unload" for "http://10.7.106.235:8000/loan/detail/34875775"
+1522654513119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.7.106.235:8000/loan/commit/success"
+1522654513154	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.7.106.235:8000/loan/commit/success"
+1522654514237	Marionette	INFO	New connections will no longer be accepted
+[Child 12812] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12812] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1522654515107	geckodriver::marionette	ERROR	Failed to stop browser process
+error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9844] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+%82%B9%E5%87%BB%E9%A1%B5%E9%9D%A2%E4%B8%AD%E7%9A%84%E6%8C%89%E9%92%AE%EF%BC%8C%E5%83%8F%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%E4%B8%AD%E7%9A%84%E7%BB%A7%E7%BB%AD%E6%B5%8F%E8%A7%88%E6%8C%89%E9%92%AE%E3%80%82_%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93&ari=2&dbv=0&drs=3&pcs=1249x850&pss=1249x2990&cfv=0&cpl=0&chi=1&cce=true&cec=GBK&tlm=1522228187&prot=2&rw=850&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1051956704026142659.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DE_35WlleMLJplMsSeJd6QC6ri2DCRwvYCIlXn5Fmr4BQC6S6fR8_PiMsDn6i2okQSxhX_ciBwochOecDoa3qnTwsxxaX_FN-xi-xlRF73sq%26wd%3D%26eqid%3Dfa1bf2e50003baeb000000045abb5b91&ecd=1&uc=1920x1040&pis=-1x-1&sr=1920x1080&tcn=1522228187&qn=cd4ee9f2e22c898c&dpv=cd4ee9f2e22c898c&tt=1522228186950.386.424.424, line 84: unreachable code after return statement
+[Parent 2828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
